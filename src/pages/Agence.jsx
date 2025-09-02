@@ -1,11 +1,60 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import React from "react";
+import { useRef } from "react";
 
 const Agence = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  const imageDivRef = useRef(null);
+  const imageRef = useRef(null);
+  
+  const imageArray = [
+    "/public/images/carl.jpg",
+    "/public/images/camilie.jpg",
+    "/public/images/chantal.jpg",
+    "/public/images/claire.jpg",
+    "/public/images/joel.jpg",
+    "/public/images/Lawrence.jpg",
+    "/public/images/Maggie.jpg",
+    "/public/images/Maxime.jpg",
+    "/public/images/joseph.jpg",
+    "/public/images/mel.jpg",
+    "/public/images/Michele.jpg",
+    "/public/images/Oliver.jpg",
+    "/public/images/sophie.jpg",
+
+  ]
+
+  useGSAP(function(){
+    gsap.to(imageDivRef.current,{
+      scrollTrigger:{
+        trigger:imageDivRef.current,
+        markers:true,
+        start:"top 23%",
+        end:"top -70%",
+        pin: true,
+        onUpdate:function(elem){
+          let imageIndex ;
+          if(elem.progress<1){
+            imageIndex = Math.floor(elem.progress*imageArray.length);
+          }else{
+            imageIndex = imageArray.length - 1;
+          }
+          imageRef.current.src = imageArray[imageIndex];
+        }
+      }
+    })
+  })
+
+
+
   return (
     <div>
       <div className="section1">
-        <div className="absolute overflow-hidden h-[20vw] rounded-4xl w-[15vw]  top-[10vw] left-[30vw]  ">
+        <div ref={imageDivRef} className="absolute overflow-hidden h-[20vw] rounded-4xl w-[15vw]  top-[10vw] left-[30vw]  ">
           <img
+            ref={imageRef}
             className="h-full object-cover w-full"
             src="/public/images/carl.jpg"
             alt=""
@@ -18,14 +67,15 @@ const Agence = () => {
               Douze
             </h1>
           </div>
-          <div className="pl-[40%]  mt-20">
-            <p className="text-5xl">
+          <div className="pl-[50%]  mt-2">
+            <p className="text-6xl">
               &nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              Notre curiosité nourrit notre créativité. On reste humbles et on
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Notre curiosité nourrit &nbsp;
+              notre créativité. On reste humbles et on
               dit non aux gros egos, même le vôtre. Une marque est vivante. Elle
               a des valeurs, une personnalité, une histoire. Si on oublie ça, on
-              peut faire de bons chiffres à court terme, mais on la tue à long
+              peut faire de bons chiffres à court terme, mais on la tue àlong
               terme. C’est pour ça qu’on s’engage à donner de la perspective,
               pour bâtir des marques influentes.
             </p>
