@@ -10,14 +10,7 @@ const HomeTopText = () => {
       <div className="text-[9.5vw] uppercase leading-[8vw] flex  items-center justify-center">
         qui
         <div className="h-[7.5vw] w-[18vw] overflow-hidden rounded-full  [mask-image:radial-gradient(white,white)]">
-          <video
-            className="h-full w-full object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-            src="/video/83c745cf.mp4"
-          />
+          <Video className="h-full w-full object-cover" playsInline src="/video/83c745cf.mp4" />
         </div>
         génère
       </div>
