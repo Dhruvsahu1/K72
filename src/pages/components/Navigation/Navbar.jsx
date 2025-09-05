@@ -1,9 +1,13 @@
-import React, { useRef } from "react";
+import React, { useContext, useRef } from "react";
+import { navBarContext } from "../../../context/NavContext";
 
 const Navbar = () => {
   const navRef = useRef(null);
+  const [navOpen, setNavOpen] = useContext(navBarContext);
+
   return (
-    <div className="fixed flex top-0  w-full z-4 items-start justify-between">
+    <div className="fixed flex top-0 w-full z-4 items-start justify-between">
+      {/* Logo */}
       <div className="p-5 w-36">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,21 +22,34 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
+
+      {/* Burger Box */}
       <div
+        onClick={() => {
+          setNavOpen(true);
+        }}
         onMouseEnter={() => {
           navRef.current.style.height = "100%";
         }}
         onMouseLeave={() => {
           navRef.current.style.height = "0px";
         }}
-        className=" h-14 bg-black  w-[17vw] realative "
+        className="h-14 bg-black w-[17vw] relative group cursor-pointer"
       >
-        <div className="relative"></div>
+        {/* Yellow Background (ignore mouse so hover triggers only on black box) */}
         <div
           ref={navRef}
-          className="absolue top-0 h-0 w-full bg-[#D3FD50] transition-all"
+          className="absolute top-0 h-0 w-full bg-[#D3FD50] transition-all pointer-events-none"
         >
-            <svg role="presentation" alt=""><use xlink:href="assets/images/sprite.svg#burger"></use></svg>
+          <svg role="presentation" alt="">
+            <use xlinkHref="assets/images/sprite.svg#burger"></use>
+          </svg>
+        </div>
+
+        {/* Burger Lines */}
+        <div className="relative h-full px-8 flex flex-col justify-center items-end gap-1.5">
+          <div className="w-18 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
+          <div className="w-10 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
         </div>
       </div>
     </div>
