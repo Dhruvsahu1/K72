@@ -47,7 +47,7 @@ const FullNavigationPage = () => {
   );
 
   return (
-    <div ref={fullScreenRef} id="fullScreenNav" className=" fullScreenNav hidden text-white w-full overflow-hidden z-50 h-screen absolute">
+    <div ref={fullScreenRef} id="fullScreenNav" className="fullScreenNav hidden text-white w-full h-screen fixed top-0 left-0 z-[9999] overflow-hidden">
         <div  className="h-screen w-full fixed ">
             <div className='h-full w-full flex'>
                         <div className='stairing h-full w-1/5 bg-black'></div>
