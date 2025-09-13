@@ -10,9 +10,10 @@ import FullNavigationPage from "./pages/components/Navigation/FullNavigationPage
 const App = () => {
  
   return (
-    <div>
+    <div className="overflow-x-hidden">
+       <Navbar/>
       <FullNavigationPage/>
-      <Navbar/>
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />

@@ -6,14 +6,15 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useContext(navBarContext);
 
   return (
-    <div className="fixed flex top-0 w-full z-4 items-start justify-between">
+    <div className="fixed flex top-0 w-full z-50 items-start">
       {/* Logo */}
-      <div className="p-5 w-36">
+      <div className="p-3 sm:p-5 w-24 sm:w-32 md:w-36 lg:w-40">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="103"
           height="44"
           viewBox="0 0 103 44"
+          className="w-full h-auto"
         >
           <path
             fill="white"
@@ -34,9 +35,9 @@ const Navbar = () => {
         onMouseLeave={() => {
           navRef.current.style.height = "0px";
         }}
-        className="h-14 bg-black w-[17vw] relative group cursor-pointer"
+        className="ml-auto h-10 sm:h-12 md:h-14 bg-black w-12 sm:w-16 md:w-20 lg:w-[17vw] relative group cursor-pointer"
       >
-        {/* Yellow Background (ignore mouse so hover triggers only on black box) */}
+        {/* Yellow Background */}
         <div
           ref={navRef}
           className="absolute top-0 h-0 w-full bg-[#D3FD50] transition-all pointer-events-none"
@@ -47,9 +48,9 @@ const Navbar = () => {
         </div>
 
         {/* Burger Lines */}
-        <div className="relative h-full px-8 flex flex-col justify-center items-end gap-1.5">
-          <div className="w-18 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
-          <div className="w-10 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
+        <div className="relative h-full px-3 sm:px-5 flex flex-col justify-center items-end gap-1 sm:gap-1.5">
+          <div className="w-6 sm:w-8 md:w-10 lg:w-18 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
+          <div className="w-4 sm:w-6 md:w-8 lg:w-10 h-0.5 bg-white transition-colors group-hover:bg-black"></div>
         </div>
       </div>
     </div>
