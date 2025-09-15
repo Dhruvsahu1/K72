@@ -93,7 +93,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
+                src="/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -101,7 +101,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/OKA_thumbnail-1280x960.jpg"
+                src="/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -111,7 +111,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Snow.jpg"
+                src="/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -119,7 +119,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Bag.jpg"
+                src="/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -137,7 +137,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
+                src="/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -145,7 +145,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/OKA_thumbnail-1280x960.jpg"
+                src="/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -155,7 +155,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Snow.jpg"
+                src="/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -163,7 +163,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Bag.jpg"
+                src="/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -181,7 +181,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/OKA_thumbnail-1280x960.jpg"
+                src="/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -189,7 +189,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Bag.jpg"
+                src="/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -199,7 +199,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Snow.jpg"
+                src="/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -207,7 +207,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/PME-MTL_Thumbnail-1280x960.jpg"
+                src="/Images/PME-MTL_Thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -225,7 +225,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Snow.jpg"
+                src="/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -233,7 +233,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/OKA_thumbnail-1280x960.jpg"
+                src="/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -243,7 +243,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
+                src="/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -251,7 +251,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/Images/Bag.jpg"
+                src="/Images/Bag.jpg"
                 alt=""
               />
             </div>
