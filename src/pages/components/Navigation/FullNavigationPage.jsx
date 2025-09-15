@@ -93,7 +93,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -101,7 +101,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -111,7 +111,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -119,7 +119,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -128,7 +128,7 @@ const FullNavigationPage = () => {
 
         <div className="link origin-top relative border-t border-white">
           <h1 className="font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
-            Projects
+            Agence
           </h1>
           <div className=" moveLink absolute text-black top-0 bg-[#D3FD50] flex ">
             <div className="movelink moveX flex p-2  items-center">
@@ -137,7 +137,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -145,7 +145,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -155,7 +155,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -163,7 +163,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -172,7 +172,7 @@ const FullNavigationPage = () => {
 
         <div className="link origin-top relative border-t border-white">
           <h1 className="font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
-            Projects
+            Contact
           </h1>
           <div className=" moveLink absolute text-black top-0 bg-[#D3FD50] flex ">
             <div className="movelink moveX flex p-2  items-center">
@@ -181,7 +181,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -189,7 +189,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/Bag.jpg"
                 alt=""
               />
             </div>
@@ -199,7 +199,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -207,7 +207,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/PME-MTL_Thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -216,7 +216,7 @@ const FullNavigationPage = () => {
 
         <div className="link origin-top relative border-y border-white">
           <h1 className="font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
-            Projects
+            Blogue
           </h1>
           <div className=" moveLink absolute text-black top-0 bg-[#D3FD50] flex ">
             <div className="movelink moveX flex p-2  items-center">
@@ -225,7 +225,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/Snow.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -233,7 +233,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/OKA_thumbnail-1280x960.jpg"
                 alt=""
               />
             </div>
@@ -243,7 +243,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Snow.jpg"
+                src="/public/Images/crisis24_behance_1920X1200_cartes-1280x960.jpg"
                 alt=""
               />
               <h2 className="whitespace-nowrap font-[font2] text-[7vw] text-center uppercase leading-[0.8] pt-5">
@@ -251,7 +251,7 @@ const FullNavigationPage = () => {
               </h2>
               <img
                 className="h-20 w-64 shrink-0 rounded-full object-cover"
-                src="/public/images/Bag.jpg"
+                src="/public/Images/Bag.jpg"
                 alt=""
               />
             </div>
