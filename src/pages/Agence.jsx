@@ -10,19 +10,19 @@ const Agence = () => {
   const imageRef = useRef(null);
   
   const imageArray = [
-    "/public/images/carl.jpg",
-    "/public/images/camilie.jpg",
-    "/public/images/chantal.jpg",
-    "/public/images/claire.jpg",
-    "/public/images/joel.jpg",
-    "/public/images/Lawrence.jpg",
-    "/public/images/Maggie.jpg",
-    "/public/images/Maxime.jpg",
-    "/public/images/joseph.jpg",
-    "/public/images/mel.jpg",
-    "/public/images/Michele.jpg",
-    "/public/images/Oliver.jpg",
-    "/public/images/sophie.jpg",
+    "/public/Images/carl.jpg",
+    "/public/Images/camilie.jpg",
+    "/public/Images/chantal.jpg",
+    "/public/Images/claire.jpg",
+    "/public/Images/joel.jpg",
+    "/public/Images/Lawrence.jpg",
+    "/public/Images/Maggie.jpg",
+    "/public/Images/Maxime.jpg",
+    "/public/Images/joseph.jpg",
+    "/public/Images/mel.jpg",
+    "/public/Images/Michele.jpg",
+    "/public/Images/Oliver.jpg",
+    "/public/Images/sophie.jpg",
 
   ]
 
